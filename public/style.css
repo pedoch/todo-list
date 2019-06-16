@@ -46,3 +46,13 @@ body{
 .main p{
     padding: 10px;
 }
+
+#textbox{
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+}
+#submitBtn{
+    height: 35px;
+    border-radius: 4px;
+}

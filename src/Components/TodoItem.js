@@ -11,7 +11,9 @@ function TodoItem(props){
             <p style={props.todo.completed ? completedStyle : null}><input type="checkbox" 
             onChange={function(){
                 props.handleChange(props.todo.id)
-            }}/>{props.todo.text}</p>
+            }}/>{props.todo.text} <button onClick={function(){
+                props.handleDelete(props.todo.id)
+            }} >Delete</button></p>
         </div>
     )
 }
